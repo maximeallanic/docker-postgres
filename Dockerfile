@@ -1,4 +1,4 @@
-FROM postgres:9.6
+FROM postgres:9.6-alpine
 
 RUN apt-get update -q && apt-get install -yqq --no-install-recommends \
  postgis \
